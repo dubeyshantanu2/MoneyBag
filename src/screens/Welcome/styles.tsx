@@ -28,6 +28,7 @@ export const styles = StyleSheet.create({
     flex: 1,
     paddingHorizontal: pixelSizeHorizontal(25),
     paddingVertical: pixelSizeVertical(25),
+    justifyContent: 'flex-end',
   },
   heading: {
     width: '70%',
