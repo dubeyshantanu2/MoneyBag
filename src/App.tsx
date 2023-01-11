@@ -1,6 +1,6 @@
 import React from 'react';
-import Welcome from './screens/Welcome';
+import RootStack from './navigation/RootStack';
 
 export default function App() {
-  return <Welcome />;
+  return <RootStack />;
 }
