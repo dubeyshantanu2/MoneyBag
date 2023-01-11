@@ -1,5 +1,5 @@
 import React from 'react';
-import Welcome from './src/screens/Welcome';
+import Welcome from './screens/Welcome';
 
 export default function App() {
   return <Welcome />;

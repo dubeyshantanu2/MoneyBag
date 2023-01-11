@@ -5,6 +5,7 @@ import background from '../../assets/bgs/background_v1.png';
 import SmallText from '../../components/Text/SmallText';
 import BigText from '../../components/Text/BigText';
 import RegularButton from '../../components/Button/RegularButton';
+
 const TopSection = () => {
   return (
     <View style={styles.topsection}>
@@ -24,6 +25,7 @@ const BottomSection = () => {
     </View>
   );
 };
+
 const Welcome: FunctionComponent = () => {
   return (
     <>
