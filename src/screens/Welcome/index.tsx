@@ -30,7 +30,7 @@ const Welcome: FunctionComponent = () => {
   return (
     <>
       <StatusBar barStyle={'light-content'} />
-      <View style={styles.container}>
+      <View style={styles.container} testID="welcome-screen">
         <TopSection />
         <BottomSection />
       </View>
