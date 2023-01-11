@@ -18,10 +18,23 @@ export const styles = StyleSheet.create({
     flex: 1,
     maxHeight: SCREEN_HEIGHT * 0.55,
   },
+  topImage: {
+    height: '100%',
+    width: '100%',
+    resizeMode: 'stretch',
+  },
   bottomSection: {
     width: SCREEN_WIDTH,
     flex: 1,
     paddingHorizontal: pixelSizeHorizontal(25),
     paddingVertical: pixelSizeVertical(25),
+  },
+  heading: {
+    width: '70%',
+    marginBottom: 25,
+  },
+  subHeading: {
+    width: '70%',
+    marginBottom: 25,
   },
 });
