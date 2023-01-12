@@ -1,6 +1,5 @@
 import React, {FunctionComponent} from 'react';
 import {StatusBar, View} from 'react-native';
-
 import {styles} from './styles';
 import logo1 from '../../assets/cards/mc.png';
 import logo2 from '../../assets/cards/visa_white.png';
