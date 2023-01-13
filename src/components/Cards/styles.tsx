@@ -16,7 +16,7 @@ export const styles = StyleSheet.create({
     paddingBottom: pixelSizeVertical(15),
   },
   imageBackground: {
-    height: '75%',
+    height: '55%',
     width: SCREEN_WIDTH * 0.67,
     resizeMode: 'cover',
     backgroundColor: colors.accent,
@@ -60,5 +60,6 @@ export const styles = StyleSheet.create({
   },
   regularText: {
     fontSize: fontPixel(19),
+    color: colors.graylight,
   },
 });

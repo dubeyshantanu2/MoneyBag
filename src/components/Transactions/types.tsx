@@ -5,7 +5,6 @@ export interface TransactionProps {
   amount: string;
   date: string;
   art: {
-    icon: string;
     background: string;
   };
 }
@@ -15,6 +14,5 @@ export interface TransactionSectionProps {
 }
 
 export interface TransactionAviProps {
-  icon: any;
   background: string;
 }
