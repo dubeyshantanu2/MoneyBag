@@ -6,10 +6,19 @@ import SmallText from '../Text/SmallText';
 import RegularText from '../Text/RegularText';
 import cardBackground from '../../assets/bgs/background_transparent.png';
 import {colors} from '../../utils/colors';
+
+import {useNavigation} from '@react-navigation/native';
+import {Props as HomeProp} from '../../screens/Home';
+
 const CardItem: FunctionComponent<CardProps> = props => {
+  const pressHandle = () => {
+    navigation.navigate('Balance', {...props});
+  };
+  const navigation = useNavigation<HomeProp['navigation']>();
+
   return (
     <ImageBackground source={cardBackground} style={styles.imageBackground}>
-      <Pressable onPress={() => {}} style={styles.pressableCard}>
+      <Pressable onPress={pressHandle} style={styles.pressableCard}>
         <View style={styles.pressableView}>
           <View style={styles.cardRow}>
             <RegularText style={{color: colors.white}}>

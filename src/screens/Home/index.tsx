@@ -6,7 +6,10 @@ import logo2 from '../../assets/cards/visa_white.png';
 import CardSection from '../../components/Cards/CardSection';
 import TransactionSection from '../../components/Transactions/TransactionSection';
 import {colors} from '../../utils/colors';
-const Home: FunctionComponent = () => {
+import {RootStackParamList} from '../../navigation/RootStack';
+import {NativeStackScreenProps} from '@react-navigation/native-stack';
+export type Props = NativeStackScreenProps<RootStackParamList, 'Home'>;
+const Home: FunctionComponent<Props> = () => {
   const cardData = [
     {
       id: 1,
